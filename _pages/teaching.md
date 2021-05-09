@@ -2,10 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+* <a href="https://www.microsoft.com/en-us/teals">TEALS volunteer teacher</a>,
+  Intro to Computer Science, Selah High School, Fall 2020 -- present.
 
-Organize your courses by years, topics, or universities, however you like!
+* TA for Computer Networks (<a
+  href="https://computer-networks.github.io/sp19/">15-441/641</a> at CMU),
+  Spring 2019.
+
+* TA for Distributed Systems (<a
+  href="http://www.cs.cmu.edu/~15-440/">15-440/640</a> at CMU), Fall 2017.

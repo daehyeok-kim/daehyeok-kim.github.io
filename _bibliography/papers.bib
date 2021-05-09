@@ -1,70 +1,438 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{sigcomm21-redplane,
+   abbr={SIGCOMM},
+   author = {Daehyeok Kim  and Jacob Nelson  and Dan Ports and Vyas Sekar and
+   Srinivasan Seshan},
+   title = {RedPlane: Enabling State-Intensive Network Functions on Programmable
+   Switches (To appear)},
+   booktitle = {Proceedings of ACM SIGCOMM},
+   month = Aug,
+   year = 2021,
+   selected={true}
+}
+@inproceedings{sigcomm20-tea,
+   abbr={SIGCOMM},
+   abstract={
+   Programmable switches have been touted as an attractive alternative for
+   deploying network functions (NFs) such as network address translators (NATs),
+   load balancers, and firewalls. However, their limited memory capacity has
+   been a major stumbling block that has stymied their adoption for supporting
+   state-intensive NFs such as cloud-scale NATs and load balancers that maintain
+   millions of flow-table entries. In this paper, we explore a new approach that
+   leverages DRAM on servers available in typical NFV clusters. Our new system
+   architecture, called TEA (Table Extension Architecture), provides a virtual
+   table abstraction that allows NFs on programmable switches to look up large
+   virtual tables built on external DRAM. Our approach enables switch ASICs to
+   access external DRAM purely in the data plane without involving CPUs on
+   servers. We address key design and implementation challenges in realizing
+   this idea. We demonstrate its feasibility and practicality with our
+   implementation on a Tofino-based programmable switch. Our evaluation shows
+   that NFs built with TEA can look up table entries on external DRAM with low
+   and predictable latency (1.8-2.2 $\mu s$) and the lookup throughput can be
+   linearly scaled with additional servers (138 million lookups per seconds with
+   8 servers).
+   },
+   pdf = {tea-sigcomm20.pdf},
+   slides={tea-sigcomm20-slides.pdf},
+   talk={https://youtu.be/eqa2ir7XVQI},
+   talk_live={https://youtu.be/h9QKoa-IDb0},
+   author = {Daehyeok Kim and Zaoxing Liu and Yibo Zhu and Changhoon Kim and
+   Jeongkeun Lee and Vyas Sekar and Srinivasan Seshan},
+   title = {TEA: Enabling State-Intensive Network Functions on Programmable Switches},
+   booktitle = {Proceedings of ACM SIGCOMM},
+   month = Aug,
+   year = 2020,
+   selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{nsdi20-etalon,
+   abbr={NSDI},
+   abstract={
+   Reconfigurable datacenter networks (RDCNs) augment traditional packet
+   switches with high-bandwidth reconfigurable circuits. In these networks,
+   high-bandwidth circuits are assigned to particular source-destination rack
+   pairs based on a schedule. To make efficient use of RDCNs, active TCP flows
+   between such pairs must quickly ramp up their sending rates when
+   high-bandwidth circuits are made available. Past studies have shown that TCP
+   performs well on RDCNs with millisecond-scale reconfiguration delays, during
+   which time the circuit network is offline. However, modern RDCNs can
+   reconfigure in as little as 20 $\mu s$, and maintain a particular
+   configuration for fewer than 10 RTTs. We show that existing TCP variants
+   cannot ramp up quickly enough to work well on these modern RDCNs. We identify
+   two methods to address this issue: First, an in-network solution that
+   dynamically resizes top-of-rack switch virtual output queues to prebuffer
+   packets; Second, an endpoint-based solution that increases the congestion
+   window, cwnd, based on explicit circuit state feedback sent via the ECN-echo
+   bit. To evaluate these techniques, we build an open-source RDCN emulator,
+   Etalon, and show that a combination of dynamic queue resizing and explicit
+   circuit state feedback increases circuit utilization by 1.91x with an
+   only 1.20x increase in tail latency.
+   },
+   pdf = {etalon-nsdi20.pdf},
+   slides={etalon-nsdi20-slides.pdf},
+   talk={https://youtu.be/JX-1KpLVgbA},
+   author = {Matthew Mukerjee and Christopher Canel and Weiyang Wang and
+   Daehyeok Kim and Srinivasan Seshan and Alex C. Snoeren},
+   title = {{Adapting TCP for Reconfigurable Datacenter Networks}},
+   booktitle = {Proceedings of 17th USENIX Symposium on Networked Systems Design
+   and Implementation (NSDI) },
+   month = Feb,
+   year = 2020,
+   selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{nsdi19-freeflow,
+   abbr={NSDI},
+   abstract={
+   Many popular large-scale cloud applications are increasingly using
+   containerization for high resource efficiency and lightweight isolation. In
+   parallel, many data-intensive applications (e.g., data analytics and deep
+   learning frameworks) are adopting or looking to adopt RDMA for high
+   networking performance. Industry trends suggest that these two approaches are
+   on an inevitable collision course. In this paper, we present FreeFlow, a
+   software-based RDMA virtualization framework designed for containerized
+   clouds. FreeFlow realizes virtual RDMA networking purely with a
+   software-based approach using commodity RDMA NICs. Unlike existing RDMA
+   virtualization solutions, FreeFlow fully satisfies the requirements from
+   cloud environments, such as isolation for multi-tenancy, portability for
+   container migrations, and controllability for control and data plane
+   policies. FreeFlow is also transparent to applications and provides
+   networking performance close to bare-metal RDMA with low CPU overhead. In our
+   evaluations with TensorFlow and Spark, FreeFlow provides almost the same
+   application performance as bare-metal RDMA.
+   },
+   pdf = {freeflow-nsdi19.pdf},
+   slides={freeflow-nsdi19-slides.pdf},
+   talk={https://youtu.be/y7kisw4Ey-w},
+   author = { Daehyeok Kim and Tianlong Yu and Hongqiang Harry Liu and Yibo Zhu and Jitu Padhye and Shachar Raindel and Chuanxiong Guo and  Vyas Sekar and Srinivasan Seshan},
+   title = {{FreeFlow: Software-based Virtual RDMA Networking for Containerized Clouds}},
+   booktitle = {Proceedings of 16th USENIX Symposium on Networked Systems Design
+   and Implementation (NSDI) },
+   month = Feb,
+   year = 2019,
+   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{sigcomm18-hyperloop,
+   abbr={SIGCOMM},
+   abstract={
+   Storage systems in data centers are an important component of large-scale
+   online services. They typically perform replicated transactional operations
+   for high data availability and integrity. Today, however, such operations
+   suffer from high tail latency even with recent kernel bypass and storage
+   optimizations, and thus affect the predictability of end-to-end performance
+   of these services. We observe that the root cause of the problem is the
+   involvement of the CPU, a precious commodity in multi-tenant settings, in the
+   critical path of replicated transactions. In this paper, we present
+   HyperLoop, a new framework that removes CPU from the critical path of
+   replicated transactions in storage systems by offloading them to commodity
+   RDMA NICs, with non-volatile memory as the storage medium. To achieve this,
+   we develop new and general NIC offloading primitives that can perform memory
+   operations on all nodes in a replication group while guaranteeing ACID
+   properties without CPU involvement. We demonstrate that popular storage
+   applications can be easily optimized using our primitives. Our evaluation
+   results with microbenchmarks and application benchmarks show that HyperLoop
+   can reduce 99th percentile latency \approx 800x with close to
+   0% CPU consumption on replicas.
+   },
+   pdf = {hyperloop-sigcomm18.pdf},
+   slides={hyperloop-sigcomm18-slides.pptx},
+   talk={https://youtu.be/vQCNeMxCdZE?t=385},
+   author = {Daehyeok Kim and  Amirsaman Memaripour and Anirudh Badam and Yibo
+   Zhu and Hongqiang Harry Liu and Jitu Padhye and Shachar Raindel and Steven
+   Swanson and Vyas Sekar and Srinivasan Seshan},
+  title = {{HyperLoop: Group-Based NIC-Offloading to Accelerate Replicated
+  Transactions in Multi-Tenant Storage Systems}},
+   booktitle = {Proceedings of ACM SIGCOMM},
+   month = Aug,
+   year = 2018, 
+   selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{ndss16-mobilead,
+  abbr={NDSS},
+  abstract= {
+  We analyze the software stack of popular mobile advertising libraries on
+  Android and investigate how they protect the users of advertising-supported
+  apps from malicious advertising. We find that, by and large, Android
+  advertising libraries properly separate the privileges of the ads from the
+  host app by confining ads to dedicated browser instances that correctly apply
+  the same origin policy.
+  
+  We then demonstrate how malicious ads can infer sensitive information about
+  users by accessing external storage, which is essential for media-rich ads in
+  order to cache video and images. Even though the same origin policy prevents
+  confined ads from reading other apps’ external-storage files, it does not
+  prevent them from learning that a file with a particular name exists. We show
+  how, depending on the app, the mere existence of a file can reveal sensitive
+  information about the user. For example, if the user has a pharmacy
+  price-comparison app installed on the device, the presence of external-storage
+  files with certain names reveals which drugs the user has looked for.
+  
+  We conclude with our recommendations for redesigning mobile advertising
+  software to better protect users from malicious advertising.
+  },
+  pdf={mobilead-ndss16.pdf},
+  slides={mobilead-ndss16-slides.pdf},
+   author = {Sooel Son and Daehyeok Kim and Vitaly Shmatikov},
+  title = {{What Mobile Ads Know About Mobile Users}},
+   booktitle = {Proceedings of 23rd Network and Distributed System Security Symposium},
+   month = Feb,
+   year = 2016 
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{ndss16-flexdroid,
+  abbr={NDSS},
+  abstract={
+  Mobile applications are increasingly integrating third-party libraries to
+  provide various features, such as advertising, analytics, social networking,
+  and more. Unfortunately, such integration with third-party libraries comes
+  with the cost of potential privacy violations of users, because Android always
+  grants a full set of permissions to third-party libraries as their host
+  applications. Unintended accesses to users’ private data are underestimated
+  threats to users’ privacy, as complex and often obfuscated third-party
+  libraries make it hard for application developers to estimate the correct
+  behaviors of third-party libraries. More critically, a wide adoption of native
+  code (JNI) and dynamic code executions such as Java reflection or dynamic code
+  reloading, makes it even harder to apply state-of-the-art security analysis. In
+  this work, we propose FLEXDROID, a new Android security model and isolation
+  mechanism, that provides dynamic, fine-grained access control for third-party
+  libraries. With FLEXDROID, application developers not only can gain a full
+  control of third-party libraries (e.g., which permissions to grant or not),
+  but also can specify how to make them behave after detecting a privacy
+  violation (e.g., providing a mock user’s information or kill). To achieve such
+  goals, we define a new notion of principals for third-party libraries, and
+  develop a novel security mechanism, called inter-process stack inspection that
+  is effective to JNI as well as dynamic code execution. Our usability study
+  shows that developers can easily adopt FLEXDROID’s policy to their existing
+  applications. Finally, our evaluation shows that FLEXDROID can effectively
+  restrict the permissions of third-party libraries with negligible overheads.
+  },
+  pdf={flexdroid-ndss16.pdf},
+  slides={flexdroid-ndss16-slides.pdf},
+   author = {Jaebaek Seo and Daehyeok Kim and Donghyun Cho and Taesoo Kim and Insik Shin},
+  title = {{FlexDroid: Enforcing In-App Privilege Separation in Android}},
+   booktitle = {Proceedings of 23rd Network and Distributed System Security Symposium },
+   month = Feb,
+   year = 2016 
+}
+
+@inproceedings{rtss15,
+  abbr={RTSS},
+  abstract={
+  A variety of advantages from sounds such as measurement and accessibility
+  introduces a new opportunity for mobile applications to offer broad types of
+  interesting, valuable functionalities, supporting a richer user experience.
+  However, in spite of the growing interests on mobile sound applications, few
+  or no works have been done in focusing on managing an audio device
+  effectively. More specifically, their low level of real-time capability for
+  audio resources makes it challenging to satisfy tight timing requirements of
+  mobile sound applications, e.g., a high sensing rate of acoustic sensing
+  applications. To address this problem, this work presents the SounDroid
+  framework, an audio device management framework for real-time audio requests
+  from mobile sound applications. The design of SounDroid is based on the
+  requirement analysis of audio requests as well as an understanding of the
+  audio playback procedure including the audio request scheduling and
+  dispatching on Android. It then incorporates both real-time audio request
+  scheduling algorithms, called EDF-V and AFDS, and dispatching optimization
+  techniques into mobile platforms, and thus improves the quality-of-service of
+  mobile sound applications. Our experimental results with the prototype
+  implementation of SounDroid demonstrate that it is able to enhance scheduling
+  performance for audio requests, compared to traditional mechanisms (by up to
+  40% of improvement), while allowing deterministic dispatching latency.},
+  pdf={soundroid-rtss15.pdf},
+   author = {Hyosu Kim and SangJeong Lee and Wookhyun Han and Daehyeok Kim and Insik Shin},
+  title = {{SounDroid: Supporting Real-Time Sound Application on Commodity Mobile Devices}},
+   booktitle = {Proceedings of 36th IEEE Real-Time Systems Symposium},
+   month = Dec,
+   year = 2015 
+}
+
+@inproceedings{infocom15,
+  abbr={INFOCOM},
+  abstract={
+  Wireless video traffic has grown at an unprecedented rate and put significant
+  burden on wireless networks. Multicast can significantly reduce traffic by
+  sending a single video to multiple receivers simultaneously. On the other
+  hand, wireless receivers are heterogeneous due to both channel and antenna
+  heterogeneity, the latter of which is rapidly increasing with the emergence of
+  802.11n and 802.11ac. In this paper, we develop optimized layered integrated
+  video encoding (LIVE) to guarantee reasonable performance to weaker receivers
+  (with worse channel and/or fewer antennas) and allow stronger receivers to
+  enjoy better quality. Our approach has three distinct features: (i) It uses a
+  novel layered coding to naturally accommodate the heterogeneity of different
+  video receivers; (ii) It uses an optimization framework to optimize the amount
+  of time used for transmission and the amount of information to transmit at
+  each layer under the current channel condition; and (iii) It uses an
+  integrated modulation, where most video data are transmitted using soft
+  modulation to enjoy efficiency and resilience while the most important video
+  data are transmitted using a combination of soft modulation and conventional
+  hard modulation to further enhance their reliability. To our knowledge, this
+  is the first approach that handles MIMO antenna heterogeneity in wireless
+  video multicast. We demonstrate its effectiveness through extensive Matlab
+  simulation and USRP testbed experiments.},
+  pdf={live-infocom15.pdf},
+
+   author = {Sangki Yun and Daehyeok Kim and Xiaofan Lu and Lili Qiu},
+  title = {{Optimized Layered Integrated Video Encoding}},
+   booktitle = {Proceedings of 34th IEEE International Conference on Computer Communications},
+   month = Apr,
+   year = 2015 
+}
+
+@inproceedings{ccs14,
+  abbr={CCS},
+  abstract={
+  Hardware-based external monitors have been proposed as a trustworthy method
+  for protecting the kernel integrity. We introduce the design and
+  implementation of Address Translation Redirection Attack (ATRA) that enables
+  complete evasion of the hardware-based external monitor that anchors its trust
+  on a separate processor. ATRA circumvents the external monitor by redirecting
+  the memory access to critical kernel objects into a non-monitored region.
+  Despite the seriousness of the ATRA issue, the address translation integrity
+  has been assumed in many hardware-based external monitors and the possibility
+  of its exploitation has been suggested yet many considered hypothetical. We
+  explore the intricate details of ATRA, explain major challenges in realizing
+  ATRA in practice, and address them with two types of ATRA called Memory-bound
+  ATRA and Register-bound ATRA. Our evaluations with benchmarks show that ATRA
+  does not introduce a noticeable performance degradation to the host system,
+  proving practical applicability of the attack to alert the researchers to
+  seriously address ATRA in designing future external monitors.},
+  pdf={atra-ccs14.pdf},
+   author = {Daehee Jang and Hojoon Lee and Minsu Kim and Daehyeok Kim and Daegyeong Kim and Brent B. Kang},
+  title = {{ATRA: Address Translation Redirection Attack against Hardware-based External Monitors}},
+   booktitle = {Proceedings of 21st ACM Conference on Computer and Communications Security},
+   month = Nov,
+   year = 2014 
+}
+
+@inproceedings{mobicom13,
+  abbr={MobiCom},
+  abstract={Explosive growth of WiFi traffic calls for new technologies to
+  dramatically improve spectrum efficiency. In this paper, we propose an
+  approach to adapt the spectrum on a per-frame basis. It consists of three
+  major components: (i) a fine-grained spectrum access design that allows a
+  sender and receiver to change their transmission and reception spectrum on
+  demand, (ii) fast and accurate spectrum detection that allows a receiver to
+  determine which spectrum is used by its sender on a per-frame basis by
+  exploiting the IEEE 802.11 preamble structure, and (iii) an efficient spectrum
+  allocation algorithm that determines which spectrum to use for each
+  transmission by taking into account frequency diversity and interference. It
+  can further be adapted to perform a joint assignment of spectrum, schedule,
+  and access point (AP) for each frame. Using a SORA implementation and
+  trace-driven simulation, we demonstrate the feasibility of per-frame spectrum
+  adaptation and its significant benefit over existing channel assignment
+  approaches. To our knowledge, this is the first per-frame spectrum adaptation
+  prototype for WiFi networks.},
+  pdf={fsa-mobicom13.pdf},
+  slides={fsa-mobicom13-slides.pdf},
+   author = {Sangki Yun and Daehyeok Kim and Lili Qiu},
+  title = {{Fine-grained Spectrum Adaptation in WiFi Networks}},
+   booktitle = {Proceedings of 20th ACM International Conference on Mobile Computing and Networking},
+   month = Sep,
+   year = 2013 
+}
+@inproceedings{wcnc12,
+  abbr={WCNC},
+  abstract={Recently, wireless communication methods that exploit the broadcast
+  nature of the wireless medium have been attracting growing attention. Among
+  these methods, opportunistic routing and network coding are regarded as the
+  most promising techniques. While there have been some attempts to combine
+  opportunistic routing with network coding to capture the advantages of both
+  techniques, none of these attempts has considered bit-rate selection for data
+  transmission in multi-rate wireless networks. In this paper, we study the
+  potential benefits of the combination of opportunistic routing and network
+  coding with the bit-rate selection mechanism from an optimization perspective.
+  We develop a theoretical model and algorithm for finding the optimal
+  forwarding scheme for a multi-rate combination of opportunistic routing and
+  network coding in a given network. MIT Roofnet trace-based simulations show
+  that considering bit-rate selection in combination with opportunistic routing
+  and network coding has substantial benefits in terms of the expected
+  transmission time compared to multi-rate opportunistic routing, multi-rate
+  network coding, and a fixed-rate combination approach.},
+  pdf={netcoding-wcnc12.pdf},
+  slides={netcoding-wcnc12-slides.pptx},
+   author = { Daehyeok Kim and Young-Joo Suh},
+  title = {{Multi-rate Combination of Opportunistic Routing and Network Coding}},
+   booktitle = {Proceedings of 9th IEEE Wireless Communications and Networking Conference},
+   month = Apr,
+   year = 2012 
+}
+
+@ARTICLE{JCSE11,
+  abbr={JCSE},
+  abstract={Recently, Proxy Mobile IPv6 (PMIPv6) has received much attention as
+  a mobility management protocol in next-generation all-IP mobile networks.
+  While the current research related to PMIPv6 mainly focuses on providing
+  efficient handovers for unicast-based applications, there has been relatively
+  little interest in supporting multicast services with PMIPv6. To provide
+  support for multicast services with PMIPv6, there are two alternative
+  approaches called Mobile Access Gateway (MAG)-based subscription and Local
+  Mobility Anchor (LMA)-based subscription. However, MAG-based subscription
+  causes a large overhead for multicast joining and LMA-based subscription
+  provides non-optimal multicast routing paths. The two approaches may also
+  cause a high packet loss rate. In this paper, we propose an efficient
+  PMIPv6-based multicast protocol that aims to provide an optimal delivery path
+  for multicast data and to reduce handover delay and packet loss rate. Through
+  simulation studies, we found that the proposed protocol outperforms existing
+  multicast solutions for PMIPv6 in terms of end-to-end delay, service
+  disruption period, and the number of lost packets during handovers.},
+  pdf={mobileipv6multicase-jcse11.pdf},
+  AUTHOR = {Daehyeok Kim and Wan-Seon Lim and Young-Joo Suh},
+ title = {{Multicast Extension to Proxy Mobile IPv6 for Mobile Multicast Services}},
+  JOURNAL = {Journal of Computing Science and Engineering},
+  volume = 5,
+  number = {4},
+   month = Dec,
+  YEAR = {2011},
+}
+
+@ARTICLE{reboost16,
+  abbr={Comm. Letter},
+  abstract={
+  Traffic redundancy elimination (RE) is an attractive approach to improve the
+  throughput in bandwidth-limited networks. While previous studies show that the
+  RE is useful for improving the throughput in such networks, we observed that
+  the RE would not be an effective solution in wireless networks. We found the
+  TCP congestion control cannot take advantage of the RE, without knowing how
+  the underlying RE system manipulates each TCP packet. In this letter, we
+  present a novel technique called REboost to enable the TCP layer to be aware
+  of the underlying RE system and improve the throughput. Our evaluation with a
+  prototype shows that REboost significantly improves the throughput compared
+  with the previous RE systems.
+  },
+  pdf={reboost-cl17.pdf},
+  AUTHOR = {Kilho Lee and Daehyeok Kim and Insik Shin},
+  title = {{REboost: Improving Throughput in Wireless Networks using Redundancy Elimination}},
+  JOURNAL = {IEEE Communications Letters},
+  volume = 21,
+  number = {1},
+  month = Jan,
+  YEAR = {2017},
+}
+
+@inproceedings{hotnets18-switch_memory,
+   abbr={HotNets},
+   abstract={
+   Network switches are an attractive vantage point to serve various network
+   applications and functions such as load balancing and virtual switching
+   because of their in-network location and high packet processing rate. Recent
+   advances in programmable switch ASICs open more opportunities for offloading
+   various functionality to switches. However, the limited memory capacity on
+   switches has been a major challenge that such applications struggle to deal
+   with. In this paper, we envision that by enabling network switches to access
+   remote memory purely from data planes, the performance of a wide range of
+   applications can be improved. We design three remote memory primitives,
+   leveraging RDMA operations, and show the feasibility of accessing remote
+   memory from switches using our prototype implementation.
+   },
+   pdf = {gem-hotnet18.pdf},
+   slides={gem-hotnets18-slides.pdf},
+   talk={https://youtu.be/A0aHVyvKWqw},
+   author = {Daehyeok Kim and Yibo Zhu and Changhoon Kim and Jeongkeun Lee and Srinivasan Seshan},
+   title = {{Generic External Memory for Switch Data Planes}},
+   booktitle = {Proceedings of the 17th ACM Workshop on Hot Topics in Networks (HotNets)},
+   month = Nov,
+   year = 2018,
+   selected={true}
 }
