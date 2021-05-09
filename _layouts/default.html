@@ -23,7 +23,13 @@
     {% include footer.html %}
 
   </body>
-
+<audio id="name" src="/assets/audio/daehyeok.mp3"></audio>
+  <script type="text/javascript"> 
+    function play(audio_id) {
+        var audio = document.getElementById(audio_id);
+        audio.play();
+    }
+</script>
   {% include scripts/bootstrap.html %}
   {% include scripts/mansory.html %}
   {% include scripts/misc.html %}
