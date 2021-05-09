@@ -2,8 +2,8 @@
 layout: page
 permalink: /links/
 title: useful links
-description: 
-nav: true
+description:  
+nav: false
 ---
 
 ### Writing
@@ -53,5 +53,3 @@ target="_blank">Linux Storage Stack Diagram</a>
 <a href="http://www.makelinux.net/kernel_map/" target="_blank">Linux kernel map</a> \\
 <a href="http://vger.kernel.org/~davem/skb.html" target="_blank">How SKBs work</a> \\
 <a href="http://www.brendangregg.com/perf.html" target="_blank">Linux perf Examples</a>
-
-[back](./)
