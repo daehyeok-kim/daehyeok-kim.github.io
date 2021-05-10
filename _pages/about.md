@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <em>My name is pronounce “Day-Hiyok”</em> <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/><a href="mailto:daehyeok@cs.cmu.edu">daehyeok@cs.cmu.edu</a> | <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a> | <a href="assets/docs/daehyeok-cv.pdf">Curriculum Vitæ</a> 
+description: <em>My name is pronounced “Day-Hiyok”</em> <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/><a href="mailto:daehyeok@cs.cmu.edu">daehyeok@cs.cmu.edu</a> | <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a> | <a href="assets/docs/daehyeok-cv.pdf">Curriculum Vitæ</a> 
  
 profile:
   align: right
