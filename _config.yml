@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Daehyeok Kim # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Daehyeok
 last_name: Kim
 email: daehyeok@cs.cmu.edu
