@@ -16,8 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a fifth-year PhD student in the <a
 href="https://www.csd.cs.cmu.edu/">Computer Science Department</a> at <a
-href="https://www.cmu.edu/">Carnegie Mellon University</a>, where I am very 
-fortunate to be co-advised by 
+href="https://www.cmu.edu/">Carnegie Mellon University</a>, where I am  fortunate to be co-advised by 
 Professors
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
