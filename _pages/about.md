@@ -25,7 +25,7 @@ I am also a senior researcher at
 <a
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/">Microsoft</a>.
 
-My research interests lie in the intersection of computer systems and networking
+My research interests lie in the intersection of systems and networking
 with a recent focus on in-network computing.  Recently, I have been
 designing new abstractions and runtime systems for heterogeneous programmable
 data plane devices such as network switches and NICs to unleash their full
