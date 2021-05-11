@@ -7,7 +7,7 @@ first_name: Daehyeok
 last_name: Kim
 email: daehyeok@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Daehyeok Kim's website.
+  Daehyeok Kim is a PhD student at Carnegie Mellon University.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 url: # the base hostname & protocol for your site
