@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /assets/docs/daehyeok-cv.pdf
-title: Curriculum Vitæ
+title: cv
 description:  
 nav: true
 ---
