@@ -7,7 +7,7 @@ nav: true
 ---
 
 * <a href="https://www.microsoft.com/en-us/teals">TEALS volunteer teacher</a>,
-  Intro to Computer Science, Selah High School, Fall 2020 -- present.
+  Intro to Computer Science, Selah High School, Fall 2020 -- present..
 
 * TA for Computer Networks (<a
   href="https://computer-networks.github.io/sp19/">15-441/641</a> at CMU),
