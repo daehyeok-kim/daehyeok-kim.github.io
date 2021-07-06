@@ -56,8 +56,9 @@ wikidata_id: # your wikidata id
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: G-GYGLXJB8GC # out your google-analytics code
-panelbear_analytics: EPDboqe4odf # panelbear analytics site ID
+#google_analytics: G-GYGLXJB8GC # out your google-analytics code
+google_analytics: # out your google-analytics code
+panelbear_analytics: # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
