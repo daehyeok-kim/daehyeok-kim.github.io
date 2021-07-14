@@ -15,12 +15,13 @@ nav: false
 
 ### Giving a talk
 
-<a href="assets/tips/PLMW-talk-opinionated.pdf" target="_blank">On Preparing (Good) Talks</a>\\
-<a href="assets/tips/cleartalktips_kayvon.pdf" target="_blank">Clear talk</a>\\
+<a href="https://daehyeok.kim/assets/tips/PLMW-talk-opinionated.pdf" target="_blank">On Preparing (Good) Talks</a>\\
+<a href="https://daehyeok.kim/assets/tips/cleartalktips_kayvon.pdf" target="_blank">Clear talk</a>\\
 <a href="https://people.eecs.berkeley.edu/~fox/paper_writing.html" target="_blank">Armando's Paper Writing and Presentations Page</a>\\
-<a href="assets/tips/How-to-give-a-great-research-talk.pdf" target="_blank">How to give a great research talk</a>\\
-<a href="assets/tips/talk-plmw17popl.pdf" target="_blank">How to give talks that people can follow</a>\\
-<a href="http://goo.gl/HUVffd" target="_blank">Creating an effective poster</a>
+<a href="https://daehyeok.kim/assets/tips/How-to-give-a-great-research-talk.pdf" target="_blank">How to give a great research talk</a>\\
+<a href="https://daehyeok.kim/assets/tips/talk-plmw17popl.pdf" target="_blank">How to give talks that people can follow</a>\\
+<a href="http://goo.gl/HUVffd" target="_blank">Creating an effective poster</a>\\
+<a href="https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/designing-powerpoint-slides.pdf" target="_blank">Designing Effective PowerPoint Presentations</a>
 
 ### Grad school and research
 
