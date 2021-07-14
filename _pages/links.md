@@ -16,12 +16,12 @@ nav: false
 ### Giving a talk
 
 <a href="https://daehyeok.kim/assets/tips/PLMW-talk-opinionated.pdf" target="_blank">On Preparing (Good) Talks</a>\\
-<a href="https://daehyeok.kim/assets/tips/cleartalktips_kayvon.pdf" target="_blank">Clear talk</a>\\
+<a href="https://daehyeok.kim/assets/tips/cleartalktips_kayvon.pdf" target="_blank">Clear talk</a> by Kayvon Fatahalian \\
 <a href="https://people.eecs.berkeley.edu/~fox/paper_writing.html" target="_blank">Armando's Paper Writing and Presentations Page</a>\\
 <a href="https://daehyeok.kim/assets/tips/How-to-give-a-great-research-talk.pdf" target="_blank">How to give a great research talk</a>\\
 <a href="https://daehyeok.kim/assets/tips/talk-plmw17popl.pdf" target="_blank">How to give talks that people can follow</a>\\
 <a href="http://goo.gl/HUVffd" target="_blank">Creating an effective poster</a>\\
-<a href="https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/designing-powerpoint-slides.pdf" target="_blank">Designing Effective PowerPoint Presentations</a>
+<a href="https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/designing-powerpoint-slides.pdf" target="_blank">Designing Effective PowerPoint Presentations</a> by CMU GCC
 
 ### Grad school and research
 
@@ -36,7 +36,6 @@ nav: false
 
 ### Good talks
 <a href="https://youtu.be/YHeyuD89n1Y" target="_blank">The Future of Networking, and the Past of Protocols</a> by Scott Shenker\\
-<a href="https://youtu.be/qAKrMdUycb8" target="_blank">The Power of Abstraction</a> by Barbara Liskov
 
 ### Systems and Linux kernel
 
@@ -54,3 +53,7 @@ target="_blank">Linux Storage Stack Diagram</a>
 <a href="http://www.makelinux.net/kernel_map/" target="_blank">Linux kernel map</a> \\
 <a href="http://vger.kernel.org/~davem/skb.html" target="_blank">How SKBs work</a> \\
 <a href="http://www.brendangregg.com/perf.html" target="_blank">Linux perf Examples</a>
+
+### Etc.
+<a href="https://www.cmu.edu/student-success/other-resources/handouts/index.html" target="_blank">Handouts from CMU Student Academic Success Center</a>\\
+
