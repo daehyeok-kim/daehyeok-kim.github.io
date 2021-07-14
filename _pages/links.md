@@ -8,9 +8,9 @@ nav: false
 
 ### Writing
 <a href="https://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html" target="_blank">Write a good paper abstract</a>\\
-<a href="assets/tips/helpful_hints_writing.pdf" target="_blank">Helpful Hints for Technical Paper Writing</a>\\
-<a href="assets/tips/How-to-write-a-great-research-paper.pdf" target="_blank">How to write a great research paper</a>\\
-<a href="assets/tips/How-to-write-a-great-research-proposal.pdf" target="_blank">How to write a great research proposal</a>\\
+<a href="https://daehyeok.kim/assets/tips/helpful_hints_writing.pdf" target="_blank">Helpful Hints for Technical Paper Writing</a>\\
+<a href="https://daehyeok.kim/assets/tips/How-to-write-a-great-research-paper.pdf" target="_blank">How to write a great research paper</a>\\
+<a href="https://daehyeok.kim/assets/tips/How-to-write-a-great-research-proposal.pdf" target="_blank">How to write a great research proposal</a>\\
 <a href="http://www-net.cs.umass.edu/kurose/writing/intro-style.html" target="_blank">Writing a good introduction</a>
 
 ### Giving a talk
@@ -28,10 +28,10 @@ nav: false
 <a href="https://phdadvice.carrd.co/" target="_blank">CS PhD --help</a>\\
 <a href="http://faculty.washington.edu/wpratt/survive.htm" target="_blank">Graduate School Survival Guide</a>\\
 <a href="http://www.wisdom.weizmann.ac.il/~oded/advice.html" target="_blank">On offering advice to aspiring scientists</a> by Oded Goldreich\\
-<a href="assets/tips/hamming86.pdf" target="_blank">You and Your Research</a> by Richard Hamming\\
-<a href="assets/tips/StevenHand.pdf" target="_blank">Doing a Systems PhD</a> by Steven Hand\\
+<a href="https://daehyeok.kim/assets/tips/hamming86.pdf" target="_blank">You and Your Research</a> by Richard Hamming\\
+<a href="https://daehyeok.kim/assets/tips/StevenHand.pdf" target="_blank">Doing a Systems PhD</a> by Steven Hand\\
 <a href="https://www.eecs.harvard.edu/htk/phdadvice/" target="_blank">Useful Thoughts about Research</a>\\
-<a href="assets/tips/WhereDoIdeasComeFrom.pdf" target="_blank">Where do (successful) research ideas come from?</a>\\
+<a href="https://daehyeok.kim/assets/tips/WhereDoIdeasComeFrom.pdf" target="_blank">Where do (successful) research ideas come from?</a>\\
 <a href="https://www.darpa.mil/work-with-us/heilmeier-catechism" target="_blank">The Heilmeier Catechism</a>
 
 ### Good talks
