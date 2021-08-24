@@ -134,6 +134,17 @@
       <a href="{{ entry.talk_live }}" class="btn btn-sm z-depth-0" role="button"
       target="_blank">Talk + Q&A video</a>
     {% endif %}
+    {% if entry.code %}
+      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button"
+      target="_blank">Code</a>
+    {% endif %}
+    {% if entry.review %}
+      {% if entry.slides contains '://' %}
+      <a href="{{ entry.review }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Public review</a>
+      {% else %}
+      <a href="{{ entry.review | prepend: '/assets/papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Public review</a>
+      {% endif %}
+    {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
     {% endif %}
