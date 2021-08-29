@@ -421,11 +421,11 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
+	  margin: 0.1rem;
           padding-left: 0.5rem;
           padding-right: 0.5rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
-	  margin: .1rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
