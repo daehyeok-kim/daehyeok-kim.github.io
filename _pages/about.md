@@ -24,7 +24,6 @@ and
 I am also a senior researcher at 
 <a
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/">Microsoft</a>.
-I am a recipient of the <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!fellows">2019 Microsoft Research PhD Fellowship</a>.
 
 Prior to CMU, I worked at <a href="http://www.kaist.edu">KAIST</a> for three
 years as a research scientist.  Before then, I received a BS and MS degree in
@@ -37,5 +36,4 @@ designing new abstractions and runtime systems for heterogeneous programmable
 data plane devices such as network switches and NICs to enable elastic and resilient in-network computing.
 In the past, I worked on various topics in systems security and wireless networks.
 
-
-
+I am a recipient of the <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!fellows">2019 Microsoft Research PhD Fellowship</a>.
