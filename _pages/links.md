@@ -35,7 +35,7 @@ nav: false
 <a href="https://www.darpa.mil/work-with-us/heilmeier-catechism" target="_blank">The Heilmeier Catechism</a>
 
 ### Good talks
-<a href="https://youtu.be/YHeyuD89n1Y" target="_blank">The Future of Networking, and the Past of Protocols</a> by Scott Shenker\\
+<a href="https://youtu.be/YHeyuD89n1Y" target="_blank">The Future of Networking, and the Past of Protocols</a> by Scott Shenker
 
 ### Systems and Linux kernel
 
@@ -55,5 +55,4 @@ target="_blank">Linux Storage Stack Diagram</a>
 <a href="http://www.brendangregg.com/perf.html" target="_blank">Linux perf Examples</a>
 
 ### Etc.
-<a href="https://www.cmu.edu/student-success/other-resources/handouts/index.html" target="_blank">Handouts from CMU Student Academic Success Center</a>\\
-
+<a href="https://www.cmu.edu/student-success/other-resources/handouts/index.html" target="_blank">Handouts from CMU Student Academic Success Center</a>
