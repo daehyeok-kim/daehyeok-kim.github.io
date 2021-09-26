@@ -57,7 +57,7 @@ contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: G-GYGLXJB8GC # out your google-analytics code
-panelbear_analytics: # panelbear analytics site ID
+panelbear_analytics: EPDboqe4odf # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -161,7 +161,7 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
+enable_panelbear_analytics: true # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
