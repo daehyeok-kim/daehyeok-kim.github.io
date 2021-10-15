@@ -11,6 +11,7 @@ nav: false
 <a href="https://daehyeok.kim/assets/tips/helpful_hints_writing.pdf" target="_blank">Helpful Hints for Technical Paper Writing</a>\\
 <a href="https://daehyeok.kim/assets/tips/How-to-write-a-great-research-paper.pdf" target="_blank">How to write a great research paper</a>\\
 <a href="https://daehyeok.kim/assets/tips/How-to-write-a-great-research-proposal.pdf" target="_blank">How to write a great research proposal</a>\\
+<a href="https://daehyeok.kim/assets/tips/writing_style_guide.pdf" target="_blank">Writing style guide</a>\\
 <a href="http://www-net.cs.umass.edu/kurose/writing/intro-style.html" target="_blank">Writing a good introduction</a>
 
 ### Giving a talk
