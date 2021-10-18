@@ -24,7 +24,7 @@ and
 Prior to CMU, I worked at KAIST for three
 years as a research scientist. 
 Before then, I received a BS and MS degree in
-Computer Science and Engineering from POSTECH, South Korea.
+Computer Science from POSTECH, South Korea.
 
 My research interests lie in the intersection of computer systems and networking
 with a recent focus on in-network computing. Recently, I have been
