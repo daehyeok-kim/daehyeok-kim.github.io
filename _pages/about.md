@@ -14,16 +14,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a fifth-year PhD student in the <a
-href="https://www.csd.cs.cmu.edu/">Computer Science Department</a> at Carnegie Mellon University, 
-where I have the great fortune of being 
-advised by 
+I am a senior researcher at Microsoft in the <a
+href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators </a>.
+I recently completed my PhD in <a href="https://www.csd.cs.cmu.edu/">computer science</a> at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
 <a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>.
-I am also a senior researcher at 
-<a
-href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/">Microsoft</a>.
 
 Prior to CMU, I worked at KAIST for three
 years as a research scientist. 
