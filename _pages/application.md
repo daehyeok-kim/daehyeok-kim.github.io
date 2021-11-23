@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /application/
+permalink: /job-application/
 title: Faculty job application
 description:  
 nav: false
