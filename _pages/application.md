@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /job-application/
-title: Faculty job application
+title: Faculty job application materials
 description:  
 nav: false
 ---
