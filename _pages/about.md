@@ -26,7 +26,7 @@ Before then, I received a BS and MS degree in
 Computer Science and Engineering from POSTECH, South Korea.
 
 My research interests lie in the intersection of computer systems and networking
-with a recent focus on in-network computing. Recently, I have been
+with a focus on in-network computing. Recently, I have been
 designing new abstractions and runtime systems for heterogeneous programmable
 data plane devices such as network switches and NICs to enable elastic and resilient in-network computing.
 In the past, I worked on various topics in systems security and wireless networks.
