@@ -20,8 +20,7 @@ I recently completed my PhD in the Computer Science Department at Carnegie Mello
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
 <a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>.
-Prior to CMU, I worked at KAIST for three
-years as a research scientist. 
+Prior to CMU, I worked at KAIST as a research scientist. 
 Before then, I received a BS and MS degree in
 Computer Science and Engineering from POSTECH, South Korea.
 
