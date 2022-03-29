@@ -2,7 +2,7 @@
    abbr={NSDI},
    author = {Hun Namkung  and Zaoxing Liu  and Daehyeok Kim and Vyas Sekar and
    Peter Steenkiste},
-   title = { SketchLib: Enabling Efficient Sketch-based Monitoring on Programmable Switches (to appear)},
+   title = { SketchLib: Enabling Efficient Sketch-based Monitoring on Programmable Switches},
    booktitle = {Proceedings of 19th USENIX Symposium on Networked Systems Design
    and Implementation},
    abstract = {
@@ -17,11 +17,16 @@
 @inproceedings{nsdi22-swish,
    abbr={NSDI},
    author = {Lior Zeno and Dan R. K. Ports and Jacob Nelson and Daehyeok Kim and Shir Landau Feibish  and Idit Keidar  and Arik Rinberg  and Alon Rashelbach  and Igor De-Paula and Mark Silberstein},
-   title = {SwiSh: Distributed Shared State Abstractions for Programmable Switches (to appear)},
+   title = {SwiSh: Distributed Shared State Abstractions for Programmable Switches},
+   abstract = {We design and evaluate SwiSh, a distributed shared state management layer for data-plane P4 programs. SwiSh enables running scalable stateful distributed network functions on programmable switches entirely in the data-plane. We explore several schemes to build a shared variable abstraction, which differ in consistency, performance, and in-switch implementation complexity. We introduce the novel Strong Delayed-Writes (SDW) protocol which offers consistent snapshots of shared data-plane objects with semantics known as rr-relaxed strong linearizability, enabling implementation of distributed concurrent sketches with precise error bounds.
+
+We implement strong, eventual, and SDW consistency protocols in Tofino switches, and compare their performance in microbenchmarks and three realistic network functions, NAT, DDoS detector, and rate limiter. Our results show that the distributed state management in the data plane is practical, and outperforms centralized solutions by up to four orders of magnitude in update throughput and replication latency.
+},
    booktitle = {Proceedings of 19th USENIX Symposium on Networked Systems Design
    and Implementation},
    month = {{February}},
    year = 2022,
+   pdf = {swish-nsdi22.pdf},
    selected={false}
 }
 
