@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a senior researcher at Microsoft in the <a
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a>.
-I recently completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
+I completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
 <a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>.
