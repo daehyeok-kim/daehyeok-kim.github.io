@@ -5,9 +5,9 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Daehyeok
 last_name: Kim
-email: daehyeok@cs.cmu.edu
+email: daehyeok.kim@microsoft.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Daehyeok Kim is a PhD student at Carnegie Mellon University.
+  Daehyeok Kim is a senior reseracher at Microsoft.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 url: # the base hostname & protocol for your site
