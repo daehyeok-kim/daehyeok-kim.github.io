@@ -26,7 +26,7 @@ Before then, I received a BS and MS degree in
 Computer Science and Engineering from POSTECH, South Korea.
 
 My research interests lie in the intersection of systems and networking
-with a focus on building software systems that improve the performance, efficiency, and resilency of programmable cloud and edge infrastructure. 
+with a focus on building software systems that improve the performance, efficiency, and resilency of applications running on emerging programmable cloud and edge infrastructure. 
 I also worked on various topics in systems security and wireless systems.
 
 ---
