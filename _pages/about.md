@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <em>My first name is pronounced “Day-Hiyok”</em> <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/><a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a> | <a href="https://twitter.com/daehyeok_kim">Twitter</a> | <a href="assets/docs/daehyeok-kim-cv.pdf">CV</a> 
+description: <em>My first name is pronounced “Day-Hiyok”</em> <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/><a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a> | <a href="assets/docs/daehyeok-kim-cv.pdf">CV</a> 
  
 profile:
   align: right
@@ -31,6 +31,6 @@ I also worked on various topics in systems security and wireless systems.
 
 ---
 
-**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023, and I'll be looking for PhD students!** If you're interested in working with me, please mention my name in your application and feel free to <a href="mailto:daehyeok@cs.utexas.edu">drop me an email</a>.
+**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023, and I'll be looking for PhD students!** If you're interested in working with me, please feel free to <a href="mailto:daehyeok@cs.utexas.edu">drop me an email</a>.
 
 ---
