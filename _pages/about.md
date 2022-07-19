@@ -31,6 +31,6 @@ I also worked on various topics in systems security and wireless systems.
 
 ---
 
-**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023, and I'll be looking for PhD students!** If you're interested in working with me, please feel free to <a href="mailto:daehyeok@cs.utexas.edu">drop me an email</a>.
+**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023, and I'll be looking for PhD students!** If you're interested in working with me, please mention my name to your <a href="https://www.cs.utexas.edu/graduate/prospective-students/apply">application</a> and feel free to <a href="mailto:daehyeok@cs.utexas.edu">drop me an email</a>.
 
 ---
