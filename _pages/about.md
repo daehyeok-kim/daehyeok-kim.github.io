@@ -26,7 +26,7 @@ Before then, I received a BS and MS degree in
 Computer Science and Engineering from POSTECH, South Korea.
 
 My research interests lie in the intersection of systems and networking
-with a focus on building software systems that improve the performance, efficiency, and resilency of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
+with a focus on building software systems that improve the performance, efficiency, and resiliency of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
 I also worked on various topics in systems security and wireless systems.
 
 ---
