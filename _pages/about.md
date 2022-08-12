@@ -15,11 +15,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I am a Senior Researcher at Microsoft in the <a
-href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a>.
+href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a> where I work on building platforms that make cellular radio access networks secure, reliable, and energy-efficient.
 I completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
-<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My work was supported partly by 
+<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My work was supported by 
 <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!fellows">Microsoft Research PhD Fellowship</a>.
 Prior to CMU, I worked at KAIST as a research scientist. 
 Before then, I received a BS and MS degree in
