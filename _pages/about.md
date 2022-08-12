@@ -15,7 +15,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I am a Senior Researcher at Microsoft in the <a
-href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a> where I work on building software systems that make 5G and next-generation cellular network infrastructure secure, reliable, and energy-efficient.
+href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a> where I work on building software systems that make 5G and next-generation cellular network infrastructure secure, reliable, and energy efficient.
 I completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
