@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <em>My first name is pronounced “Day-Hiyok”</em> <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/><a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a> | <a href="assets/docs/daehyeok-kim-cv.pdf">CV</a> 
+description: <em>My first name is pronounced “Day-Hiyok”</em> <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/><a href="mailto:daehyeok@cs.utexas.edu">daehyeok@cs.utexas.edu</a> | <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a> | <a href="assets/docs/daehyeok-kim-cv.pdf">CV</a> 
  
 profile:
   align: right
@@ -14,6 +14,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+---
+
+**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023, and I'll be looking for PhD students!** If you're interested in working with me, please apply to the <a href="https://www.cs.utexas.edu/graduate/prospective-students/apply">UT CS PhD program</a>.
+
+---
 I am a Senior Researcher at Microsoft in the <a
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a> where I build software systems that make 5G and next-generation cellular network infrastructure secure, reliable, and energy efficient.
 I completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
@@ -29,8 +34,3 @@ My research interests lie in the intersection of systems and networking
 with a focus on building software systems that improve the performance, efficiency, and resiliency of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
 I also worked on various topics in systems security and wireless systems.
 
----
-
-**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023, and I'll be looking for PhD students!** If you're interested in working with me, please mention my name in your <a href="https://www.cs.utexas.edu/graduate/prospective-students/apply">application</a> and feel free to <a href="mailto:daehyeok@cs.utexas.edu">drop me an email</a>.
-
----
