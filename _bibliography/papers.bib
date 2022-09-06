@@ -213,6 +213,31 @@ workflows.
    selected={true}
 }
 
+@inproceedings{hotnets18-switch_memory,
+   abbr={HotNets},
+   abstract={
+   Network switches are an attractive vantage point to serve various network
+   applications and functions such as load balancing and virtual switching
+   because of their in-network location and high packet processing rate. Recent
+   advances in programmable switch ASICs open more opportunities for offloading
+   various functionality to switches. However, the limited memory capacity on
+   switches has been a major challenge that such applications struggle to deal
+   with. In this paper, we envision that by enabling network switches to access
+   remote memory purely from data planes, the performance of a wide range of
+   applications can be improved. We design three remote memory primitives,
+   leveraging RDMA operations, and show the feasibility of accessing remote
+   memory from switches using our prototype implementation.
+   },
+   pdf = {gem-hotnets18.pdf},
+   slides={gem-hotnets18-slides.pdf},
+   talk_live={https://youtu.be/A0aHVyvKWqw},
+   author = {Daehyeok Kim and Yibo Zhu and Changhoon Kim and Jeongkeun Lee and Srinivasan Seshan},
+   title = {{Generic External Memory for Switch Data Planes}},
+   booktitle = {Proceedings of the 17th ACM Workshop on Hot Topics in Networks (HotNets)},
+   month = {{November}},
+   year = 2018
+}
+
 
 @inproceedings{sigcomm18-hyperloop,
    abbr={SIGCOMM},
@@ -521,27 +546,3 @@ workflows.
   YEAR = {2017},
 }
 
-@inproceedings{hotnets18-switch_memory,
-   abbr={HotNets},
-   abstract={
-   Network switches are an attractive vantage point to serve various network
-   applications and functions such as load balancing and virtual switching
-   because of their in-network location and high packet processing rate. Recent
-   advances in programmable switch ASICs open more opportunities for offloading
-   various functionality to switches. However, the limited memory capacity on
-   switches has been a major challenge that such applications struggle to deal
-   with. In this paper, we envision that by enabling network switches to access
-   remote memory purely from data planes, the performance of a wide range of
-   applications can be improved. We design three remote memory primitives,
-   leveraging RDMA operations, and show the feasibility of accessing remote
-   memory from switches using our prototype implementation.
-   },
-   pdf = {gem-hotnets18.pdf},
-   slides={gem-hotnets18-slides.pdf},
-   talk_live={https://youtu.be/A0aHVyvKWqw},
-   author = {Daehyeok Kim and Yibo Zhu and Changhoon Kim and Jeongkeun Lee and Srinivasan Seshan},
-   title = {{Generic External Memory for Switch Data Planes}},
-   booktitle = {Proceedings of the 17th ACM Workshop on Hot Topics in Networks (HotNets)},
-   month = {{November}},
-   year = 2018
-}
