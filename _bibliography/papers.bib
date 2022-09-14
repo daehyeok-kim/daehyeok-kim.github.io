@@ -5,8 +5,10 @@
    author = {Francisco Pereira and Gonçalo Matos and Hugo Sadok and Daehyeok Kim and Ruben Martins and Justine Sherry and Fernando Ramos and Luis Pedrosa},
    title = {Automatic Generation of Network Function Accelerators Using Component-Based Synthesis},
    booktitle = {Proceedings of ACM Symposium on SDN Research},
+   abstract = {Designing networked systems that take best advantage of heterogeneous dataplanes -- e.g., dividing packet processing across both a PISA switch and an x86 CPUs -- can improve performance, efficiency, and resource consumption. However, programming for multiple hardware targets remains challenging because developers must learn platform-specific languages and skills. While some `write-once, run-anywhere' compilers exist, they are unable to consider a range of implementation options to tune the NF to meet performance objectives. In this short paper, we explore preliminary ideas towards a compiler that explores a large search space of different mappings of functionality to hardware. This exploration can be tuned for a programmer-specified objective, such as minimizing memory consumption or maximizing network throughput. Our initial prototype, SyNAPSE, is based on a methodology called component-based synthesis and supports deployments across x86 and Tofino platforms. Relative to a baseline compiler which only generates one deployment decision, SyNAPSE uncovers thousands of deployment options -- including a deployment which reduces the amount of controller traffic by an order of magnitude, and another deployment which halves memory usage.},
    month = {{October}},
    year = 2022,
+   pdf = {synapse-sosr22.pdf},
    selected={false}
 }
 @inproceedings{nsdi22-sketchlib,
