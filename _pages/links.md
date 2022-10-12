@@ -56,4 +56,5 @@ target="_blank">Linux Storage Stack Diagram</a>
 <a href="http://www.brendangregg.com/perf.html" target="_blank">Linux perf Examples</a>
 
 ### Etc.
-<a href="https://www.cmu.edu/student-success/other-resources/handouts/index.html" target="_blank">Handouts from CMU Student Academic Success Center</a>
+<a href="https://www.cmu.edu/student-success/other-resources/handouts/index.html" target="_blank">Handouts from CMU Student Academic Success Center</a>\\
+<a href="http://sensys.acm.org/2019/resources/documents/HowTo.pdf" target="_blank">Quick and Dirty Instructions for the New ACM Typesetting Format—acmart Class</a>
