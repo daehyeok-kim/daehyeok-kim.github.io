@@ -15,6 +15,18 @@
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
 {% endif %}
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Daehyeok Kim",
+      "url": "https://daehyeok.kim/",
+      "sameAs": ["https://twitter.com/daehyeok_kim","https://www.facebook.com/daehyeok.kim","https://www.linkedin.com/in/daehyeok-kim","https://scholar.google.com/citations?user=n017nRYAAAAJ"]
+    
+  }
+</script>
+
 <!-- Bootstrap & MDB -->
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
