@@ -7,7 +7,7 @@ first_name: Daehyeok
 last_name: Kim
 email: daehyeok.kim@microsoft.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Daehyeok Kim is an assistant professor of computer science at the University of Texas at Austin.
+  Daehyeok Kim is an assistant professor of Computer Science at the University of Texas at Austin.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 url: # the base hostname & protocol for your site
