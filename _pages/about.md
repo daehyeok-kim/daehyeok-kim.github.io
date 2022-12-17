@@ -6,7 +6,7 @@ description: <em>My first name is pronounced “Day-Hiyok”</em> <a href="#" on
  
 profile:
   align: right
-  image: dkim.jpg
+  image: dkim-profile.jpg
   address: >
 
 news: false  # includes a list of news items
