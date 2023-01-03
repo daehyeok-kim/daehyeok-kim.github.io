@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 ---
 
-**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023.**
+**I'll be joining the <a href="https://cs.utexas.edu/">UT Austin CS department</a> as an Assistant Professor starting Fall 2023.** If you are a prospective graduate student or postdoc, please feel free to get in touch!
 
 ---
 I am a Senior Researcher at Microsoft in the <a
