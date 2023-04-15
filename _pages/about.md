@@ -18,8 +18,8 @@ social: false  # includes social icons at the bottom of the page
 
 
 ---
-I am an incoming assistant professor of computer science at the <a href="https://cs.utexas.edu/>University of Texas at Austin</a>, and I am currently a Senior Researcher at Microsoft in the <a
-href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators</a>.
+I am an incoming assistant professor of computer science at the <a href="https://cs.utexas.edu/>University of Texas at Austin</a>, and I am currently a senior researcher at Microsoft in the <a
+href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators group</a>.
 
 My research interests lie in the intersection of systems and networking
 with a focus on building software systems that improve the performance, efficiency, and resiliency of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
