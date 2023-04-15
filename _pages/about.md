@@ -14,8 +14,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
----
-
 
 ---
 I am an incoming assistant professor of computer science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>, and I am currently a senior researcher at Microsoft in the <a
