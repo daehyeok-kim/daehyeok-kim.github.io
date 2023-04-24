@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 
 My first name is pronounced “Day-Hiyok” <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/>
-<a href="mailto:daehyeok@cs.utexas.edu">daehyeok@cs.utexas.edu</a> | <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a><br/>
+Email: daehyeok@cs.utexas.edu | <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a><br/>
 
 I am an incoming assistant professor of computer science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>, and I am currently a senior researcher at Microsoft in the <a
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators group</a>.
