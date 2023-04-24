@@ -96,6 +96,8 @@ a, table.table a {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 1.6em;
+    font-weight: 500;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -367,12 +369,10 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
+    color: $grey-color;
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
+    text-align: center;
   }
   ol.bibliography {
     list-style: none;
@@ -421,7 +421,7 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-	  margin: 0.1rem;
+          margin: 0.1rem;
           padding-left: 0.5rem;
           padding-right: 0.5rem;
           padding-top: 0.25rem;
