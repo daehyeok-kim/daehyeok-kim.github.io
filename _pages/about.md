@@ -22,7 +22,7 @@ I am an incoming assistant professor of computer science at the <a href="https:/
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators group</a>.
 
 My research interests lie in the intersection of systems and networking
-with a focus on building software systems that improve the performance, efficiency, and resiliency of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
+with a focus on building software systems that improve the performance, efficiency, and resilience of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
 I also worked on various topics in systems security and wireless systems.
 
 I completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
