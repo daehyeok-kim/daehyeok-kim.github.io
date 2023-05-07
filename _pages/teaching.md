@@ -6,11 +6,13 @@ description:
 nav: true
 ---
 
-##### Carnegie Mellon University
-* TA for <a href="https://computer-networks.github.io/sp19/">15-441/641: Computer Networks</a>, CMU,
-  Spring 2019.
+##### University of Texas at Austin
+* Instructor for CS395T: Advanced Topics in Computer Networks, Fall 2023.
 
-* TA for <a href="http://www.cs.cmu.edu/~15-440/">15-440/640: Distributed Systems</a>, CMU, Fall 2017.
+##### Carnegie Mellon University
+* TA for <a href="https://computer-networks.github.io/sp19/">15-441/641: Computer Networks</a>, Spring 2019.
+
+* TA for <a href="http://www.cs.cmu.edu/~15-440/">15-440/640: Distributed Systems</a>, Fall 2017.
 
 ##### Technology Education and Literacy in Schools (TEALS) program
 * <a href="https://www.microsoft.com/en-us/teals">TEALS volunteer teacher</a>,
