@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 
 My first name is pronounced “Day-Hiyok” <a href="#" onclick="play('name')"><i class="fa fa-1x fa-play-circle"></i></a><br/>
 Email: <a href="#">daehyeok@cs.utexas.edu</a> | 
-<a href="/assets/docs/daehyeok-kim-cv.pdf>CV</a> |
+<a href="/assets/docs/daehyeok-kim-cv.pdf">CV</a> |
 <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a><br/>
 
 I am an incoming assistant professor of computer science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>, and I am currently a senior researcher at Microsoft in the <a
