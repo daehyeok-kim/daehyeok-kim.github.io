@@ -7,11 +7,8 @@ nav: true
 ---
 
 ##### Program Committees
-* NSDI 2024
-* EuroSys 2024
-* SIGCOMM Posters/Demos 2022
-* P4 Workshop 2022
-* EuroP4 2022
+* 2024: NSDI, EuroSys 
+* 2022: SIGCOMM Posters/Demos, P4 Workshop, EuroP4 
 
 ##### Conference Organizing Committees
 * HotNets 2022 Travel Grants Chair 
