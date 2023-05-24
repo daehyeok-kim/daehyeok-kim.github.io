@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a>
 </blockquote>
 
-I am an incoming assistant professor of computer science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>, and I am currently a senior researcher at Microsoft in the <a
+I am an incoming Assistant Professor of computer science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>, and I am currently a Senior Researcher at Microsoft in the <a
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators group</a>.
 
 My research interests lie in the intersection of systems and networking
