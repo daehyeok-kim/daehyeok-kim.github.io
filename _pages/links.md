@@ -31,8 +31,8 @@ nav: false
 <a href="http://www.wisdom.weizmann.ac.il/~oded/advice.html" target="_blank">On offering advice to aspiring scientists</a> by Oded Goldreich\\
 <a href="https://daehyeok.kim/assets/tips/hamming86.pdf" target="_blank">You and Your Research</a> by Richard Hamming\\
 <a href="https://daehyeok.kim/assets/tips/StevenHand.pdf" target="_blank">Doing a Systems PhD</a> by Steven Hand\\
-<a href="https://www.eecs.harvard.edu/htk/phdadvice/" target="_blank">Useful Thoughts about Research</a> H.T. Kung\\
-<a href="https://www.cs.virginia.edu/~evans/paradise/" target="_blank">How to Live in Paradise</a>\\
+<a href="https://www.eecs.harvard.edu/htk/phdadvice/" target="_blank">Useful Thoughts about Research</a> by H.T. Kung\\
+<a href="https://www.cs.virginia.edu/~evans/paradise/" target="_blank">How to Live in Paradise</a> by David Evans\\
 <a href="https://daehyeok.kim/assets/tips/WhereDoIdeasComeFrom.pdf" target="_blank">Where do (successful) research ideas come from?</a> by Margaret Martonosi\\
 <a href="https://www.darpa.mil/work-with-us/heilmeier-catechism" target="_blank">The Heilmeier Catechism</a>
 
