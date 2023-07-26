@@ -7,7 +7,7 @@ nav: true
 ---
 
 ##### University of Texas at Austin
-* Instructor for CS395T: Advanced Topics in Computer Networks, Fall 2023.
+* Instructor for <a href="/teaching/cs395t/fa23">CS395T: Advanced Topics in Computer Networks</a>, Fall 2023.
 
 ##### Carnegie Mellon University
 * TA for <a href="https://computer-networks.github.io/sp19/">15-441/641: Computer Networks</a>, Spring 2019.
