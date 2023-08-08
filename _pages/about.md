@@ -20,19 +20,20 @@ social: false  # includes social icons at the bottom of the page
 <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a>
 </blockquote>
 
-I am an incoming Assistant Professor of computer science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>, and I am currently a Senior Researcher at Microsoft in the <a
-href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of CTO at Azure for Operators group</a>.
+I am an Assistant Professor of Computer Science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>. Prior to joining UT Austin, I was a Senior Researcher in the <a
+href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of the CTO in the Azure for Operators group</a> and <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a>.
+
 
 My research interests lie in the intersection of systems and networking
 with a focus on building software systems that improve the performance, efficiency, and resilience of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
 I also worked on various topics in systems security and wireless systems.
 
-I completed my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
+I received my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
-<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My <a href="assets/papers/cmu-phd-thesis.pdf">PhD thesis</a> introduced new abstractions and runtime systems to enable resilient and elastic in-network computing. My work was supported by 
+<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My <a href="assets/papers/cmu-phd-thesis.pdf">PhD thesis</a> introduced new abstractions and runtime systems to enable resilient and elastic in-network computing. My work was in part supported by 
 <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!fellows">Microsoft Research PhD Fellowship</a>.
-Prior to CMU, I worked at KAIST as a research scientist. 
-Before then, I received a BS and MS degree in
+Prior to joining CMU, I worked at KAIST as a research scientist. 
+Before then, I completed a BS and MS degrees in
 Computer Science and Engineering from POSTECH, South Korea.
 
