@@ -24,9 +24,7 @@ I am an Assistant Professor of Computer Science at the <a href="https://cs.utexa
 href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of the CTO in the Azure for Operators group</a> and <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a>.
 
 
-My research interests lie in the intersection of systems and networking
-with a focus on building software systems that improve the performance, efficiency, and resilience of data- and network-intensive applications running on emerging programmable infrastructure (e.g., programmable switches, NICs, and xPUs). 
-I also worked on various topics in systems security and wireless systems.
+My research interests lie at the intersection of systems and networking, with a focus on building software systems that improve the performance, efficiency, and resilience of data- and network-intensive applications running on emerging programmable infrastructures (e.g., programmable switches, NICs, and xPUs). I have also worked on various topics in security and wireless systems.
 
 I received my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
