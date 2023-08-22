@@ -2,7 +2,14 @@
 layout: page
 permalink: /group
 title: group
-redirect_to: https://utns.cs.utexas.edu/
 description:  
 nav: true
 ---
+
+#### PhD students
+* [Darius Grassi](https://www.linkedin.com/in/darius-grassi/) (co-advised with Aditya Akella)
+* [Donghyun Kim](https://donghyun-kim.com/) (co-advised with Aditya Akella)
+* [Rohit Dwivedula](https://dwivedula.dev/) (co-advised with Aditya Akella)
+* [Haoyu Li](https://lihy0529.github.io/) (co-advised with Aditya Akella)
+
+I am also closely working with several brilliant students at [UT networked systems group](https://utns.cs.utexas.edu).
