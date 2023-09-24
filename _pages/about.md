@@ -29,7 +29,7 @@ My research interests lie at the intersection of systems and networking, with a 
 I received my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
-<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My <a href="assets/papers/cmu-phd-thesis.pdf">PhD thesis</a> introduced new abstractions and runtime systems to enable resilient and elastic in-network computing. My work was in part supported by 
+<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My <a href="assets/papers/cmu-phd-thesis.pdf">PhD thesis</a> introduced new abstractions and runtime systems to enable elastic and resilient in-network computing. My work was in part supported by 
 <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!fellows">Microsoft Research PhD Fellowship</a>.
 Prior to joining CMU, I worked at KAIST as a research scientist. 
 Before then, I completed a BS and MS degrees in
