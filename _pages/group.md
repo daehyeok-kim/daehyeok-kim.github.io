@@ -13,6 +13,6 @@ nav: true
 * [Haoyu Li](https://lihy0529.github.io/) (co-advised with Aditya Akella)
 
 ##### Masters students
-* [Henry Liu](https://www.henryliu.info/) (Turing scholar, 5th year MS) 
+* [Henry Liu](https://www.henryliu.info/) (turing scholar, 5th year masters) 
 
 I also work closely with several brilliant students in the [UT Networked Systems group](https://utns.cs.utexas.edu/).
