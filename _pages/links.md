@@ -7,7 +7,7 @@ nav: true
 rank: 10 
 ---
 
-### Writing
+#### Writing
 <a href="https://plg.uwaterloo.ca/~migod/research/beckOOPSLA.html" target="_blank">Write a good paper abstract</a> by Michael W. Godfrey\\
 <a href="https://daehyeok.kim/assets/tips/helpful_hints_writing.pdf" target="_blank">Helpful Hints for Technical Paper Writing</a> by Armando Fox\\
 <a href="https://daehyeok.kim/assets/tips/How-to-write-a-great-research-paper.pdf" target="_blank">How to write a great research paper</a> by Simon Peyton Jones\\
@@ -15,7 +15,7 @@ rank: 10
 <a href="https://daehyeok.kim/assets/tips/writing_style_guide.pdf" target="_blank">Writing style guide</a>\\
 <a href="http://www-net.cs.umass.edu/kurose/writing/intro-style.html" target="_blank">Writing a good introduction</a> by Jim Kurose
 
-### Giving a talk
+#### Giving a talk
 
 <a href="https://daehyeok.kim/assets/tips/PLMW-talk-opinionated.pdf" target="_blank">On Preparing (Good) Talks</a> by Ranjit Jhala\\
 <a href="https://daehyeok.kim/assets/tips/cleartalktips_kayvon.pdf" target="_blank">Clear talk</a> by Kayvon Fatahalian \\
@@ -25,7 +25,7 @@ rank: 10
 <a href="http://goo.gl/HUVffd" target="_blank">Creating an effective poster</a> by John Wilkes\\
 <a href="https://www.cmu.edu/student-success/other-resources/handouts/comm-supp-pdfs/designing-powerpoint-slides.pdf" target="_blank">Designing Effective PowerPoint Presentations</a> by CMU GCC
 
-### Grad school and research
+#### Grad school and research
 
 <a href="https://phdadvice.carrd.co/" target="_blank">CS PhD --help</a>\\
 <a href="http://faculty.washington.edu/wpratt/survive.htm" target="_blank">Graduate School Survival Guide</a> by Wanda Pratt\\
@@ -37,10 +37,10 @@ rank: 10
 <a href="https://daehyeok.kim/assets/tips/WhereDoIdeasComeFrom.pdf" target="_blank">Where do (successful) research ideas come from?</a> by Margaret Martonosi\\
 <a href="https://www.darpa.mil/work-with-us/heilmeier-catechism" target="_blank">The Heilmeier Catechism</a>
 
-### Good talks
+#### Good talks
 <a href="https://youtu.be/YHeyuD89n1Y" target="_blank">The Future of Networking, and the Past of Protocols</a> by Scott Shenker
 
-### Systems and Linux kernel
+#### Systems and Linux kernel
 
 <a href="http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/" target="_blank">Operation Costs in CPU Clock Cycles</a>\\
 <a href="https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html" target="_blank">Latency Numbers Every Programmer Should Know</a>\\
@@ -57,6 +57,6 @@ target="_blank">Linux Storage Stack Diagram</a>
 <a href="http://vger.kernel.org/~davem/skb.html" target="_blank">How SKBs work</a> \\
 <a href="http://www.brendangregg.com/perf.html" target="_blank">Linux perf Examples</a>
 
-### Etc.
+#### Etc.
 <a href="https://www.cmu.edu/student-success/other-resources/handouts/index.html" target="_blank">Handouts from CMU Student Academic Success Center</a>\\
 <a href="http://sensys.acm.org/2019/resources/documents/HowTo.pdf" target="_blank">Quick and Dirty Instructions for the New ACM Typesetting Format—acmart Class</a>
