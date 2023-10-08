@@ -3,7 +3,8 @@ layout: page
 permalink: /links/
 title: useful links
 description:  
-nav: false
+nav: true
+rank: 10 
 ---
 
 ### Writing

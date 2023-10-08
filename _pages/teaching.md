@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description: 
 nav: true
+rank: 3
 ---
 
 ##### University of Texas at Austin
