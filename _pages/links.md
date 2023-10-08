@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /links/
-title: useful links
+permalink: /tips/
+title: tips
 description:  
 nav: true
 rank: 10 
