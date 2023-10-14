@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /links/
-title: Links
+title: links
 description:  
 nav: true
 rank: 10 
