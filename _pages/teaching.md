@@ -8,12 +8,12 @@ rank: 3
 ---
 
 ##### University of Texas at Austin
-* Instructor for <a href="">CS 356: Computer Networks</a>, Spring 2024.
-* Instructor for <a href="/teaching/cs395t/fa23">CS 395T: Advanced Topics in Computer Networks</a>, Fall 2023.
+* Instructor, <a href="">CS 356: Computer Networks</a>, Spring 2024.
+* Instructor, <a href="/teaching/cs395t/fa23">CS 395T: Advanced Topics in Computer Networks</a>, Fall 2023.
 
 ##### Carnegie Mellon University
-* TA for <a href="https://computer-networks.github.io/sp19/">15-441/641: Computer Networks</a>, Spring 2019.
-* TA for <a href="http://www.cs.cmu.edu/~15-440/">15-440/640: Distributed Systems</a>, Fall 2017.
+* TA, <a href="https://computer-networks.github.io/sp19/">15-441/641: Computer Networks</a>, Spring 2019.
+* TA, <a href="http://www.cs.cmu.edu/~15-440/">15-440/640: Distributed Systems</a>, Fall 2017.
 
 ##### Technology Education and Literacy in Schools (TEALS) program
 * <a href="https://www.microsoft.com/en-us/teals">Volunteer teacher</a>,
