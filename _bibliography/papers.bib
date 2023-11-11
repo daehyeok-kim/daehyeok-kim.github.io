@@ -1,7 +1,7 @@
 @inproceedings{micro23-lognic,
    abbr={MICRO},
    author = {Zerui Guo and Jiaxin Lin and Yuebin Bai and Daehyeok Kim and Michael Swift and Aditya Akella and Ming Liu},
-   title =  {LogNIC: A High-Level Performance Model for SmartNICs (To appear)},
+   title =  {LogNIC: A High-Level Performance Model for SmartNICs},
    booktitle = {Proceedings of 56th IEEE/ACM International Symposium on Microarchitecture},
    abstract = {
        SmartNICs have become an indispensable communication fabric and computing substrate in today’s data centers and enterprise clusters, providing in-network computing capabilities for traversed packets and benefiting a range of applications across the system stack. Building an efficient SmartNIC-assisted solution is generally non-trivial and tedious as it requires programmers to understand the SmartNIC architecture, refactor application logic to match the device’s capabilities and limitations, and correlate an application execution with traffic characteristics. A high-level SmartNIC performance model can decouple the underlying SmartNIC hardware device from its offloaded software implementations and execution contexts, thereby drastically simplifying and facilitating the development process. However, prior architectural models can hardly be applied due to their ineptness in dissecting the SmartNIC-offloaded program’s complexity, capturing the nondeterministic overlapping between computation and I/O, and perceiving diverse traffic profiles.
