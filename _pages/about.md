@@ -21,18 +21,18 @@ social: false  # includes social icons at the bottom of the page
 Research groups: <a href="https://utns.cs.utexas.edu">UTNS</a> | <a href="https://wncg.org">WNCG</a> | <a href="https://6g-ut.org">6G@UT</a>
 </blockquote>
 
-I am an Assistant Professor of Computer Science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>. I co-lead the <a href="https://utns.cs.utexas.edu">UT Networked Systems Research Group</a> and  am also a member of the <a href="https://wncg.org/">Wireless Networking and Communications Group</a> and <a href="http://6g-ut.org/">6G@UT</a>. Prior to joining UT Austin, I was a Senior Researcher in the <a
-href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of the CTO in the Azure for Operators group</a> and <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a>.
+I am an Assistant Professor of Computer Science at the <a href="https://cs.utexas.edu/">University of Texas at Austin</a>. I co-lead the <a href="https://utns.cs.utexas.edu">UT Networked Systems Research Group</a> and  am also a member of the <a href="https://wncg.org/">Wireless Networking and Communications Group</a> and <a href="http://6g-ut.org/">6G@UT</a>. Prior to joining UT Austin, I was a senior researcher in the <a
+href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/"> Office of the CTO in the Azure for Operators group</a> and at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/">Microsoft Research Redmond</a>.
 
 
 My research interests lie at the intersection of systems and networking, with a focus on building software systems that improve the performance, efficiency, and resilience of data- and network-intensive applications running on emerging programmable infrastructures (e.g., programmable switches, NICs, and xPUs). I have also worked on various topics in security and wireless systems.
 
-I received my PhD in the Computer Science Department at Carnegie Mellon University, advised by 
+I received my PhD from the Computer Science Department at Carnegie Mellon University, where I was advised by 
 <a href="https://users.ece.cmu.edu/~vsekar/">Vyas Sekar</a>
 and
-<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My <a href="assets/papers/cmu-phd-thesis.pdf">PhD thesis</a> introduced new abstractions and runtime systems to enable elastic and resilient in-network computing. My work was in part supported by 
+<a href="https://www.cs.cmu.edu/~srini/">Srinivasan Seshan</a>. My <a href="assets/papers/cmu-phd-thesis.pdf">dissertation</a> introduced new abstractions and runtime systems to enable elastic and resilient in-network computing. My work was supported in part by the 
 <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/#!fellows">Microsoft Research PhD Fellowship</a>.
-Prior to joining CMU, I worked at KAIST as a research scientist. 
-Before then, I completed a BS and MS degrees in
+Prior to joining CMU, I worked as a research scientist at KAIST. 
+Before that, I received a BS and MS degrees in
 Computer Science and Engineering from POSTECH, South Korea.
 
