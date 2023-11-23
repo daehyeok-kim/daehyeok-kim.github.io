@@ -13,4 +13,5 @@ rank: 4
 * 2022: SIGCOMM Posters/Demos, P4 Workshop, EuroP4 
 
 ##### Conference Organizing Committees
+* SOSP 2024 Poster Chair 
 * HotNets 2022 Travel Grants Chair 
