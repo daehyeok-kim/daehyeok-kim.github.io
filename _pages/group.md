@@ -13,7 +13,9 @@ rank: 1
 * [Rohit Dwivedula](https://dwivedula.dev/) (co-advised with Aditya Akella)
 * [Haoyu Li](https://lihy0529.github.io/) (co-advised with Aditya Akella)
 
-##### Masters students
-* [Henry Liu](https://www.henryliu.info/) (turing scholar, 5th year masters) 
+##### Masters and undergardudate students
+* [Henry Liu](https://www.henryliu.info/) (CS turing scholar, 5th year masters) 
+* [Andrew McAlinden](/group/#) (CS turing scholar) 
+* [Arnav Kashyap](https://www.linkedin.com/in/arnavskashyap/) (ECE Honors) 
 
 I also work closely with several brilliant students in the [UT Networked Systems group](https://utns.cs.utexas.edu/).
