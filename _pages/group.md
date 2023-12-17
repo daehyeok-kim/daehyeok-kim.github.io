@@ -8,14 +8,14 @@ rank: 1
 ---
 
 ##### PhD students
-* [Darius Grassi](https://www.linkedin.com/in/darius-grassi/) (co-advised with Aditya Akella)
-* [Donghyun Kim](https://donghyun-kim.com/) (co-advised with Aditya Akella)
-* [Rohit Dwivedula](https://dwivedula.dev/) (co-advised with Aditya Akella)
-* [Haoyu Li](https://lihy0529.github.io/) (co-advised with Aditya Akella)
+* [Darius Grassi](https://www.linkedin.com/in/darius-grassi/) (with Aditya Akella)
+* [Donghyun Kim](https://donghyun-kim.com/) (with Aditya Akella)
+* [Rohit Dwivedula](https://dwivedula.dev/) (with Aditya Akella)
+* [Haoyu Li](https://lihy0529.github.io/) (with Aditya Akella)
 
 ##### Masters and undergardudate students
-* [Henry Liu](https://www.henryliu.info/) (CS turing scholar, 5th year masters) 
-* [Andrew McAlinden](/group/#) (CS turing scholar) 
+* [Henry Liu](https://www.henryliu.info/) (CS Turing scholar, 5th year masters) 
+* [Andrew McAlinden](/group/#) (CS Turing scholar) 
 * [Arnav Kashyap](https://www.linkedin.com/in/arnavskashyap/) (ECE Honors) 
 
 I also work closely with several brilliant students in the [UT Networked Systems group](https://utns.cs.utexas.edu/).
