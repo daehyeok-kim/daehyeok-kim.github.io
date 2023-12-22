@@ -8,7 +8,7 @@ rank: 3
 ---
 
 ##### University of Texas at Austin
-* Instructor, <a href="">CS 356: Computer Networks</a>, Spring 2024.
+* Instructor, <a href="https://utcs356.github.io/spring24/">CS 356: Computer Networks</a>, Spring 2024.
 * Instructor, <a href="/teaching/cs395t/fa23">CS 395T: Advanced Topics in Computer Networks</a>, Fall 2023.
 
 ##### Carnegie Mellon University
