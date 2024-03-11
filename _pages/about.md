@@ -18,6 +18,7 @@ social: false  # includes social icons at the bottom of the page
 <a href="#">daehyeok@cs.utexas.edu</a> | 
 <a href="/assets/docs/daehyeok-kim-cv.pdf">Curriculum Vitae</a> |
 <a href="https://scholar.google.com/citations?user=n017nRYAAAAJ&hl=en">Google Scholar</a><br/>
+Office: <a href="https://maps.app.goo.gl/2c48uUza7ZeAXMjw9">GDC</a> 6.824<br/>
 Research groups: <a href="https://utns.cs.utexas.edu">UTNS</a> | <a href="https://wncg.org">WNCG</a> | <a href="https://6g-ut.org">6G@UT</a>
 </blockquote>
 
