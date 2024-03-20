@@ -15,7 +15,5 @@ rank: 1
 
 ##### Masters and undergardudate students
 * [Henry Liu](https://www.henryliu.info/) (CS Turing scholar, 5th year masters) 
-* [Andrew McAlinden](/group/#) (CS Turing scholar) 
-* [Arnav Kashyap](https://www.linkedin.com/in/arnavskashyap/) (ECE Honors) 
 
 I also work closely with several brilliant students in the [UT Networked Systems group](https://utns.cs.utexas.edu/).
